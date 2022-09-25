@@ -2,7 +2,7 @@ import ReactMarkdown from "react-markdown";
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
-import Openingupper from '../../components/openingupper.js';
+import Openingupper from '../../components/Openingupper.js';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 
 function Articles(props) {
@@ -84,7 +84,6 @@ export async function getStaticProps({ params }) {
       image: image || null,
       imagealt: imageAlt || null,
       basedomain: process.env.baseDomain,
-      basepath: process.env.basePath,
     }
   }
 }

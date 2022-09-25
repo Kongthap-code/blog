@@ -1,7 +1,5 @@
 import '../styles/globals.css'
-import Container from "../components/container";
-import Router from "next/router";
-import {useState, useEffect} from 'react';
+import Container from "../components/Container";
 
 function App({ Component, pageProps }) {
   return (

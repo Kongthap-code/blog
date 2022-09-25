@@ -1,4 +1,4 @@
-import Openingupper from '../components/openingupper.js';
+import Openingupper from '../components/Openingupper.js';
 import Container from '../components/Container.js';
 import Link from 'next/link'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
@@ -90,7 +90,6 @@ export async function getStaticProps() {
     props:{
       articleall : articleslist,
       basedomain: process.env.baseDomain || null,
-      basepath: process.env.basePath || null,
     }
   }
 }

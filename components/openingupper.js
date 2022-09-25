@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import { useRouter } from 'next/router';
 
-function openingupper() {
+function Openingupper() {
   const title = "Kongthap Code My personal blog📋"
   return (
     <Head>
@@ -10,4 +9,4 @@ function openingupper() {
   )
 }
 
-export default openingupper;
+export default Openingupper;

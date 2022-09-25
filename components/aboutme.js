@@ -1,6 +1,6 @@
 import fetch from 'isomorphic-unfetch';
 import useSWR from 'swr';
-import AboutmeStyle from '../styles/aboutme';
+import AboutmeStyle from '../styles/Aboutme';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
