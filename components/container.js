@@ -1,4 +1,4 @@
-import ContainerStyle from '../styles/container'
+import ContainerStyle from '../styles/Container'
 import Aboutme from './aboutme'
 
 function Container(props){

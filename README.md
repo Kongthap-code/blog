@@ -1,3 +1,3 @@
 Follow my blog at 🚀
 
-https://kongthap-code.github.io/Kongthapcode-blog/
+https://kongthap-code.github.io/
